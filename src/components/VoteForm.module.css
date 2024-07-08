@@ -1,0 +1,17 @@
+/* VoteForm.css */
+.vote-form {
+  text-align: left;
+}
+
+.vote-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.vote-form label {
+  margin-bottom: 1rem;
+}
+
+.vote-form button {
+  margin-top: 1rem;
+}
