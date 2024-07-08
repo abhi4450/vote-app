@@ -11,7 +11,14 @@ function VoteForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (studentName && monitorName) {
-      addVote({ studentName, monitorName });
+      const vote = {
+        id: monitorName,
+        monitor: monitorName,
+        student: studentName,
+        count: 1,
+      };
+      console.log("vote:", vote);
+      addVote(vote);
       closeModal();
     }
   };

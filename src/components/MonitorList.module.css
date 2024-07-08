@@ -1,15 +1,42 @@
-/* MonitorList.css */
 .monitor-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  margin-top: 20px;
 }
 
-.monitor {
+.monitor-item {
   border: 1px solid #ccc;
   padding: 10px;
-  border-radius: 5px;
-  width: 200px;
-  text-align: left;
+  margin-bottom: 10px;
+}
+
+.monitor-item h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.monitor-item p {
+  margin: 5px 0;
+}
+
+.monitor-item ul {
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+.monitor-item li {
+  list-style-type: disc;
+  margin-bottom: 3px;
+}
+
+.delete-button {
+  margin-left: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
 }
